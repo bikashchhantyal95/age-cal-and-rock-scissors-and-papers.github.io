@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Age In Days Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container-1">
+		<h1>Age Calculator</h1>
+
+		<div class="flex-box-container">
+			<div>
+				<button class="btn btn-primary" onclick="getAgeInDays()">Click Me!</button>
+			</div>
+			<div>
+				<button class="btn btn-danger" onclick="reset()">Reset</button>
+			</div>
+		</div>
+
+		<div class="flex-box-container">
+			<div id="result">
+				
+			</div>
+		</div>
+	</div>	
+	<div class="container-2">
+		<h1>Rock Scissors Paper</h1>
+		<div class="flex-box-rps" id="flex-box-rps-div">
+			<img id="rock" src="http://images.clipartpanda.com/rock-clipart-clipart-harvestable-resources-rock.png" onclick="game(this)">
+			<img id="paper" src="http://images.clipartpanda.com/paper-clip-art-niEBBqMiA.svg" onclick="game(this)">
+			<img id="scissors" src="https://algebra2.thinkport.org/module6/images/task-8/scissors-you.png" onclick="game(this)">		
+		</div>
+	</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
