@@ -37,5 +37,8 @@
 	cursor: pointer;
 	box-shadow: 0px 0px 20px 10px rgba(37,50,233,1);
 }
+a{
+	margin:5px;
+}
 
 /*# sourceMappingURL=bootstrap.min.css.map */
